@@ -1,0 +1,65 @@
+html, body, #main-container, .full-height{
+    height: 100%;
+}
+
+
+#background-container{
+    background-image: url("images/6.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.form-group{
+    padding-top: 10px;
+}
+.logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.logo span {
+  color: var(--main-color);
+}
+:root {
+  --text-color: #000000;
+  --main-color: #E9967A;
+}
+
+.text-text h1 {
+  font-size: 2.7rem;
+  color: #FFFFFF;
+}
+.text-text p {
+  font-size: 1.3rem;
+  margin: 0.4rem 0 1.8rem;
+  color: #FFFFFF;
+}
+.text-text span {
+  color: var(--main-color);
+}
+
+.form-group p{
+  font-size: 1.3rem;
+  margin: 0.4rem 0 1.8rem;
+  color: #FFFFFF;
+}
+
+.form-group a{
+  color: var(--main-color);
+}
+
+.remember-forgot a{
+  color: var(--main-color);
+}
+
+.btn{
+
+    color: var(--main-color);
+}
